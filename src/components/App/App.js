@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import HttpsRedirect from 'react-https-redirect';
 // import { Link } from 'react-router-dom';
 
 // components
@@ -19,6 +20,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
+       <HttpsRedirect>
         <Router>
           <div>
             <div className="split-background">
@@ -41,7 +43,7 @@ class App extends React.Component {
             </main>
           </div>
         </Router>
-
+        </HttpsRedirect>
         <div className="circle-bottom"></div>
       </div>
     )
