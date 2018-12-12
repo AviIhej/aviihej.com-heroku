@@ -21,6 +21,8 @@ class Contact extends React.Component {
         <section className="contact" id="contact">
           <h2>Get in touch</h2>
 
+
+
           <div className="content">
             <p>
             Do you have a project you want to talk about? A question ? An event you would like me to speak at? Or do you 
