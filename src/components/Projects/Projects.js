@@ -8,6 +8,11 @@ class Projects extends Component {
       <div className="projects"> 
         <h1>Projects</h1>
         {/* <ul className="projectList" style={{color: 'black'}}> */}
+            <a href="https://www.cannaboard.ca" target="_blank" rel="noopener noreferrer" style={{color: "black"}}><li><h2>Cannaboard.ca</h2></li></a>
+            <a href="https://www.cannaboard.ca" target="_blank" rel="noopener noreferrer" style={{color: "black"}}><li><p>CLICK HERE TO GO TO CANNABOARD.CA</p></li></a>
+            <li>Cannaboard.ca is a Job board for the newly emerging Cannabis Industry in Canada. Cannaboard.ca Will be launching late-December on Product Hunt.</li>
+            <li className="uses">Uses: GraphQL, ApolloServer, PostgreSQL, Prisma, Node.js, React, ApolloClient</li>
+
             <li><h2>Eventster</h2></li>
             <li>An events app that connects people from all over the world</li>
             <li className="uses">Uses: Firebase, Node.js, React</li>
@@ -19,7 +24,7 @@ class Projects extends Component {
 
             <li><h2>PyScraper</h2></li>
             <li>A python screen scraper using beautiful soup</li>
-            <li className="uses">Uses: Graphql, Node.js, React</li>
+            <li className="uses">Uses: Graphql, Node.js, React, Redux</li>
             
             <li><h2>RazorBot</h2></li>
             <li style={{color: 'black'}}>A Slackbot that puts an interesting twist on your day</li>
