@@ -4,6 +4,7 @@ import BannerCard from '../BannerCard/BannerCard';
 // import Button from '../Button/Button';
 // import Test from '../Test/Test';
 import "./Banner.css";
+// import moment from 'moment';
 
 class Banner extends Component{
 
