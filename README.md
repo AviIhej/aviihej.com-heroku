@@ -55,9 +55,5 @@ One month, day thirty seven #356
 One month, day thirty eight #356
 One month, day thirty nine #356
 One month, day thirty ten #356
-<<<<<<< HEAD
-Two Months
-=======
 Two months!
->>>>>>> abd9273c11cba7452c32fdc5b9be684459feae1c
 Try to add to Github
